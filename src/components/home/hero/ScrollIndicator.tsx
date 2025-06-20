@@ -1,9 +1,9 @@
 // app/components/home/ScrollIndicator.tsx
 import "@/styles/scroll-indicator.css";
 
-export default function ScrollIndicator() {
+export default function ScrollIndicator({ className = "" }: { className?: string }) {
     return (
-        <div className="relative h-full flex justify-end items-end">
+        <div className={`${className}`}>
             <div className="mouse_scroll">
                 <span className="mouse_scroll_arrow ett" />
                 <span className="mouse_scroll_arrow tva" />

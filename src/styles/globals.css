@@ -11,6 +11,8 @@
   --color-primary-dark: #a798ff;
   --color-secondary-dark: #d6d4ff;
   --color-accent-dark: #fbb13b;
+
+  --breakpoint-3xl: 120rem;
 }
 
 body {
