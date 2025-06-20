@@ -69,7 +69,7 @@ export default function HeroSection() {
           </div>
         </div>
         {/* Footer */}
-        <div className="relative w-full h-fit md:h-1/8 flex justify-between z-50 overflow-visible">
+        <div className="relative w-full h-fit md:h-1/8 mb-16 md:mb-0 flex justify-between z-50 overflow-visible">
           <div className="grid gap-4 grid-cols-1 md:grid-cols-2 md:grid-rows-2 text-lg md:text-xl 2xl:text-2xl font-[fustat] text-text-dark">
             {INFO_BLOCKS.map((item, idx) => (
               <InfoBlock key={idx} title={item.title} subtitle={item.subtitle} />
