@@ -75,8 +75,8 @@ export default function HeroSection() {
               <InfoBlock key={idx} title={item.title} subtitle={item.subtitle} />
             ))}
             <div className="relative h-fit text-xl md:text-2xl 2xl:text-3xl">
-              <div className="font-[gloock]">"Crafting code</div>
-              <div className="font-[gloock] ml-3"> with an artist's perspective."</div>
+              <div className="font-[gloock]">&quot;Crafting code</div>
+              <div className="font-[gloock] ml-3"> with an artist&apos;s perspective.&quot;</div>
               {/* Decoration */}
               <div className="absolute left-0 top-0 w-[120%] 2xl:w-[150%] h-full pointer-events-none z-[-1] opacity-50 bg-gradient-to-r from-transparent via-secondary to-primary" />
             </div>
