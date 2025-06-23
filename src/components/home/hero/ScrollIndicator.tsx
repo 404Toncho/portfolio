@@ -1,4 +1,3 @@
-// app/components/home/ScrollIndicator.tsx
 import "@/styles/scroll-indicator.css";
 
 export default function ScrollIndicator({ className = "" }: { className?: string }) {
