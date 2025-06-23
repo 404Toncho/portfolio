@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Gloock, Epilogue, Fustat } from "next/font/google";
-import Navbar from '@/components/NavBar';
+// import Navbar from '@/components/NavBar';
 import "@/styles/globals.css";
 
 
@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${gloock.variable} ${epilogue.variable} ${fustat.variable} antialiased`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>
